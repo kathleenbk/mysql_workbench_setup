@@ -1,0 +1,11 @@
+SELECT * FROM names;
+
+INSERT into names (first_name, last_name)
+VALUES ("Katie", "Kavanagh"), ("Nicholas", "Bowman");
+
+SELECT first_name
+FROM names;
+
+UPDATE names SET last_name = 'Bowman' WHERE (id = '1')
+
+DELETE FROM `names`.`names` WHERE (`id` = '5');
